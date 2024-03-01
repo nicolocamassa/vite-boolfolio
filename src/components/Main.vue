@@ -21,8 +21,14 @@ export default {
 }
 </script>
 <template lang="">
-    <main>
-        <Card v-for="project, index in this.store.projects" :project="project" :key="index" />
+    <main class="p-5">
+
+        <div class="container">
+            <div class="row">
+                    <Card v-for="project, index in this.store.projects" :project="project" :key="index" />
+            </div>
+        </div>
+
     </main>
 </template>
 <style lang="">
