@@ -1,11 +1,9 @@
 <script>
 import Header from './components/Header.vue';
-import Main from './components/Main.vue'
 
 export default {
   components:{
     Header,
-    Main,
   }, 
 
       data() {
@@ -18,7 +16,7 @@ export default {
 
 <template lang="">
   <Header />
-  <Main />
+  <router-view></router-view>
   <div>
     
   </div>
@@ -27,4 +25,4 @@ export default {
 <style lang="scss">
   @use "./styles/general.scss" as *;
 
-</style>
+</style>./pages/Main.vue

@@ -1,11 +1,11 @@
 <script>
 import axios from "axios";
 import { store } from "../store";
-import Card from './Card.vue'
+import Card from '../components/Card.vue'
 
 
 export default {
-    name: 'Main',  
+    name: 'blog',  
     components: {
         Card
     },
