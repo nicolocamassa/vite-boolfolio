@@ -14,6 +14,11 @@ const router = createRouter({
             path: '/blog',
             name: 'blog',
             component: AppBlog
+        },
+        {
+            path: '/:pathMatch(.*)*',
+            name: 'not-found',
+            component: AppNotFound
         }
     ]
 });
