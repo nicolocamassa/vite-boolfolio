@@ -56,4 +56,4 @@ export default {
 </template>
 <style lang="">
     
-</style>
+</style>./Card.vue
